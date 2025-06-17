@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "meal-app",
+    "name": "Meal App",
     "slug": "meal-app",
     "version": "1.0.1",
     "orientation": "portrait",
@@ -21,15 +21,22 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.Recipe.RN",
-      "versionCode":2,
+      "package": "com.recipe.rn",
+      "versionCode": 2,
+      "versionName": "1.0.1",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dceddf36-b2ae-4afd-8b1e-84f7772ce984"
+      }
     }
   }
 }
